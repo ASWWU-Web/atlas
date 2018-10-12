@@ -73,8 +73,7 @@ $(document).ready(function(){
     {"username": "Jonathan.Gillespie", "photo": "profiles/1819/02220-2054485.jpg", "email": "Jonathan.Gillespie@wallawalla.edu", "full_name": "Jonathan Gillespie", "views": "55"},
     {"username": "joshua.huh", "photo": "profiles/1819/03328-1499491.jpg", "email": "joshua.huh@wallawalla.edu", "full_name": "Joshua Huh", "views": "30"},
     {"username": "Zack.Hoffer", "photo": "profiles/1819/02408-2037147.jpg", "email": "", "full_name": "Zack Hoffer", "views": "97"},
-    // Stephanie Smith profile missing on ASWWU
-
+    {"username": "Stephanie.Smith", "photo": "images/default_mask/default.jpg", "email": "", "full_name": "Stephanie Smith", "views": "0"}
   ];
 
   $.each(baristas,function(i,v){
