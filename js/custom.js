@@ -60,17 +60,21 @@ $(document).ready(function(){
 
   //Add baristas.
   var baristas = [
-    {"role": "Manager", "username": "jonathan.fitch", "photo": "profiles/1617/01864-2024483.jpg", "email": "jonathan.fitch@wallawalla.edu", "full_name": "Jonathan Fitch", "views": "17"},
-    {"role": "Assistant Manager", "username": "austin.mock", "photo": "profiles/1718/02073-2001055.jpg", "email": "austin.mock@wallawalla.edu", "full_name": "Austin Mock", "views": "22"},
-    {"username": "brian.paredes", "photo": "profiles/1718/02419-2024509.jpg", "email": "Brian.paredes@wallawalla.edu", "full_name": "Brian Paredes", "views": "22"},
-    {"username": "sarah.fandrich", "photo": "profiles/1718/01817-1496247.jpg", "email": "", "full_name": "Sarah Fandrich", "views": "52"},
-    {"username": "annie.gibson", "photo": "profiles/1718/01410-2009372.jpg", "email": "guess", "full_name": "Annie Gibson", "views": "19"},
-    {"username": "Charmaine.Tan", "photo": "profiles/1718/00458-2049290.jpg", "email": "charmaine.tan@wallawalla.edu", "full_name": "Charmaine Tan", "views": "23"},
-    {"username": "joshua.huh", "photo": "profiles/1718/02890-1499491.jpg", "email": "joshua.huh@wallawalla.edu", "full_name": "Joshua Huh", "views": "2"},
-    {"username": "nicolas.ribeiro", "photo": "profiles/1718/02871-2013572.jpg", "email": "", "full_name": "Nick Ribeiro", "views": "41"},
-    {"username":"nicholas.chebeleu", "full_name":"Nicholas Chebeleu", "photo":"profiles/1617/02525-2012265.jpg"},
-    {"username": "Nicolette.Horning", "photo": "profiles/1718/02716-2038764.jpg", "email": "", "full_name": "Nicolette Horning", "views": "252"},
-    {"username": "samantha.blenderman", "photo": "profiles/1718/02943-2025087.jpg", "email": "", "full_name": "Samantha Blenderman", "views": "12"}
+    {"role": "Manager","username": "Nicolette.Horning", "photo": "profiles/1819/03335-2038764.jpg", "email": "", "full_name": "Nicolette Horning", "views": "141"},
+    {"role": "Assistant Manger","username": "Hunter.Giesbrecht", "photo": "profiles/1819/03160-2038751.jpg", "email": "", "full_name": "Hunter Giesbrecht", "views": "22"},
+    {"role": "Syrup Specialist", "username": "rachael.wright", "photo": "profiles/1718/01750-2026386.jpg", "email": "", "full_name": "Rachael Wright", "views": "33"},
+    {"username": "Amanda.Maizar", "photo": "profiles/1819/01549-2027046.jpg", "email": "", "full_name": "Amanda Maizar", "views": "82"},
+    {"username": "Andrew.Nascimento", "photo": "profiles/1819/02776-2052796.jpg", "email": "", "full_name": "Andrew Nascimento", "views": "19"},
+    {"username": "brian.paredes", "photo": "profiles/1718/02419-2024509.jpg", "email": "Brian.paredes@wallawalla.edu", "full_name": "Brian Andrew Paredes", "views": "14"},
+    {"username": "Brooklyn.Anderson", "photo": "profiles/1819/00966-2044615.jpg", "email": "None", "full_name": "Brooklyn Anderson", "views": "34"},
+    {"username": "Charmaine.Tan", "photo": "profiles/1819/02156-2049290.jpg", "email": "guess.....", "full_name": "Charmaine Tan", "views": "23"},
+    {"username": "grant.slavens", "photo": "profiles/1718/01121-2017575.jpg", "email": "grant.slavens@wallawalla.eduNone", "full_name": "Grant Slavens", "views": "35"},
+    {"username": "gregory.birge", "photo": "profiles/1819/01762-2019445.jpg", "email": "None", "full_name": "Gregory Birge", "views": "44"},
+    {"username": "Jonathan.Gillespie", "photo": "profiles/1819/02220-2054485.jpg", "email": "Jonathan.Gillespie@wallawalla.edu", "full_name": "Jonathan Gillespie", "views": "55"},
+    {"username": "joshua.huh", "photo": "profiles/1819/03328-1499491.jpg", "email": "joshua.huh@wallawalla.edu", "full_name": "Joshua Huh", "views": "30"},
+    {"username": "Zack.Hoffer", "photo": "profiles/1819/02408-2037147.jpg", "email": "", "full_name": "Zack Hoffer", "views": "97"},
+    // Stephanie Smith profile missing on ASWWU
+
   ];
 
   $.each(baristas,function(i,v){
