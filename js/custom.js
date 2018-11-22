@@ -83,7 +83,7 @@ $(document).ready(function(){
     }
     var outerHTML = `
       <div class="person col col-md-4">
-      <a id="` + i + `profile" href="https://aswwu.com/#/profile/` + v.username + `" target="_blank"></a>
+      <a id="` + i + `profile" href="https://aswwu.com/mask/profile/` + v.username + `" target="_blank"></a>
       </div>`;
     $("#baristas").append(outerHTML);
     if(v.photo == "None"){
