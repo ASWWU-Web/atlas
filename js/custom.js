@@ -67,11 +67,11 @@ $(document).ready(function(){
     {"username": "Andrew.Nascimento", "photo": "profiles/1819/02776-2052796.jpg", "full_name": "Andrew Nascimento"},
     {"username": "Breanna.Scully", "photo": "profiles/1920/1129-2034359.jpg", "full_name": "Breanna Scully"},
     {"username": "Brooklyn.Anderson", "photo": "profiles/1819/00966-2044615.jpg", "full_name": "Brooklyn Anderson"},
-    {"username": "Gregory.Birge", "photo": "/profiles/1920/2258-2019445.jpg", "full_name": "Gregory Birge"},
+    {"username": "Gregory.Birge", "photo": "/profiles/1920/2262-2019445.jpg", "full_name": "Gregory Birge"},
     {"username": "Jonathan.Gillespie", "photo": "profiles/1819/02220-2054485.jpg", "full_name": "Jonathan Gillespie"},
     {"username": "Ryan.Rojas", "photo": "profiles/1718/00358-2036350.jpg", "full_name": "Ryan Rojas"},
     {"username": "Zachary.Macomber", "photo":"/profiles/1920/966-2048546.jpg", "full_name":"Zachary Macomber"},
-    {"username": "Zack.Hoffer", "photo": "/profiles/1920/1740-2037147.jpg", "full_name": "Zack Hoffer"}
+    {"username": "Zack.Hoffer", "photo": "/profiles/1920/1739-2037147.jpg", "full_name": "Zack Hoffer"}
   ];
 
   $.each(baristas,function(i,v){
