@@ -60,18 +60,18 @@ $(document).ready(function(){
 
   //Add baristas.
   var baristas = [
-    {"role": "Manager","username": "Nicolette.Horning", "photo": "profiles/1819/03335-2038764.jpg", "email": "", "full_name": "Nicolette Horning", "views": "141"},
-    {"role": "Assistant Manger","username": "Hunter.Giesbrecht", "photo": "profiles/1819/03160-2038751.jpg", "email": "", "full_name": "Hunter Giesbrecht", "views": "22"},
-    {"role": "Syrup Specialist", "username":"annalise.harvey", "photo":"profiles/1819/01002-2022270.jpg", "email":"", "full_name":"Annalise Harvey", "views":"0"},
-    {"username": "Andrew.Nascimento", "photo": "profiles/1819/02776-2052796.jpg", "email": "", "full_name": "Andrew Nascimento", "views": "19"},
-    {"username": "brian.paredes", "photo": "profiles/1718/02419-2024509.jpg", "email": "Brian.paredes@wallawalla.edu", "full_name": "Brian Andrew Paredes", "views": "14"},
-    {"username": "Brooklyn.Anderson", "photo": "profiles/1819/00966-2044615.jpg", "email": "None", "full_name": "Brooklyn Anderson", "views": "34"},
-    {"username": "grant.slavens", "photo": "profiles/1718/01121-2017575.jpg", "email": "grant.slavens@wallawalla.eduNone", "full_name": "Grant Slavens", "views": "35"},
-    {"username": "gregory.birge", "photo": "profiles/1819/01762-2019445.jpg", "email": "None", "full_name": "Gregory Birge", "views": "44"},
-    {"username": "Jonathan.Gillespie", "photo": "profiles/1819/02220-2054485.jpg", "email": "Jonathan.Gillespie@wallawalla.edu", "full_name": "Jonathan Gillespie", "views": "55"},
-    {"username": "Zack.Hoffer", "photo": "profiles/1819/02408-2037147.jpg", "email": "", "full_name": "Zack Hoffer", "views": "97"},
-    {"username": "Stephanie.Smith", "photo": "images/default_mask/default.jpg", "email": "", "full_name": "Stephanie Smith", "views": "0"},
-    {"username":"Zachary.Macomber", "photo":"profiles/1718/00309-2048546.jpg", "email":"", "full_name":"Zachary Macomber", "views":"0" }
+    {"role": "Manager","username": "Brian.Paredes", "photo": "/profiles/1920/1840-2024509.jpg", "full_name": "Brian Andrew Paredes"},
+    {"role": "Assistant Manger","username": "Hunter.Giesbrecht", "photo": "profiles/1819/03160-2038751.jpg", "full_name": "Hunter Giesbrecht"},
+    {"role": "Marketing Coordinator","username":"Charmaine.Tan","photo": "profiles/1920/1249-2049290.jpg", "full_name": "Charmaine Tan"},
+    {"role": "Beverage Specialist", "username":"Annalise.Harvey", "photo":"profiles/1819/01002-2022270.jpg", "full_name":"Annalise Harvey"},
+    {"username": "Andrew.Nascimento", "photo": "profiles/1819/02776-2052796.jpg", "full_name": "Andrew Nascimento"},
+    {"username": "Breanna.Scully", "photo": "profiles/1920/1129-2034359.jpg", "full_name": "Breanna Scully"},
+    {"username": "Brooklyn.Anderson", "photo": "profiles/1819/00966-2044615.jpg", "full_name": "Brooklyn Anderson"},
+    {"username": "Gregory.Birge", "photo": "/profiles/1920/2262-2019445.jpg", "full_name": "Gregory Birge"},
+    {"username": "Jonathan.Gillespie", "photo": "profiles/1819/02220-2054485.jpg", "full_name": "Jonathan Gillespie"},
+    {"username": "Ryan.Rojas", "photo": "profiles/1718/00358-2036350.jpg", "full_name": "Ryan Rojas"},
+    {"username": "Zachary.Macomber", "photo":"/profiles/1920/966-2048546.jpg", "full_name":"Zachary Macomber"},
+    {"username": "Zack.Hoffer", "photo": "/profiles/1920/1739-2037147.jpg", "full_name": "Zack Hoffer"}
   ];
 
   $.each(baristas,function(i,v){
@@ -81,7 +81,7 @@ $(document).ready(function(){
     }
     var outerHTML = `
       <div class="person col col-md-4">
-      <a id="` + i + `profile" href="https://aswwu.com/#/profile/` + v.username + `" target="_blank"></a>
+      <a id="` + i + `profile" href="https://aswwu.com/mask/profile/` + v.username + `/1920` + `" target="_blank"></a>
       </div>`;
     $("#baristas").append(outerHTML);
     if(v.photo == "None"){
