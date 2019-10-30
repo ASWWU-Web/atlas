@@ -32,6 +32,8 @@ $(document).ready(function(){
 
   var button = "<div class='col col-xs-12 text-white text-xs-center'><a href='https://www.instagram.com/the_atlas/' target='about_blank' class='btn btn-primary'>Open with Instagram</a></div>";
   //Instagram feed stuff.
+  //The commented out code is an outdated feed where the link does not work
+  /*
   $.getJSON("https://aswwu.com/server/feed?name=atlas", function(data){
     var feed =``;
     $.each(data.data, function(i,o){
@@ -52,11 +54,13 @@ $(document).ready(function(){
           `;
       feed += html;
     });
-
-    $("#atlasFeed").append(feed + button);
+    */
+    $("#atlasFeed").append(button);
+    /*
   }).fail(function(){
     $("#atlasFeed").append("<div class='col col-xs-12 text-xs-center'><p><font color='red'>Failed to fetch instagram content.</font></p></div>" + button);
   });
+  */
 
   //Add baristas.
   var baristas = [
